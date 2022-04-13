@@ -1,0 +1,12 @@
+.mainbg {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(14, 9, 30, 0.7)),
+    url(../images/hero.jpg);
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  filter: blur(0.3px);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
