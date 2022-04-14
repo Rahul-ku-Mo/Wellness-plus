@@ -4,14 +4,15 @@ import c1 from "../Images/c1.jpg";
 import c2 from "../Images/c2.jpg";
 import c3 from "../Images/c3.jpg";
 import Image from "next/image";
+import styles from "./Mwellness.module.css"
 const Mwellness = () => {
   return (
-    <>
+    <div className= {styles.mwellness}>
       <Program
-      id={"p1"}
+        id={"p1"}
         src={c1}
         about={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "Group therapy is a form of psychotherapy that involves one or more therapists working with several people at the same time. This type of therapy is widely available at a variety of locations including private therapeutic practices, hospitals, mental health clinics, and community centers.   Group therapy is sometimes used alone, but it is also commonly integrated into a comprehensive treatment plan that also includes individual therapy."
         }
         heading={"Group Therapy"}
         link={"See Live Sessions"}
@@ -47,7 +48,7 @@ const Mwellness = () => {
         heading={"One Time Counselling"}
         link={"Contact Now"}
       />
-    </>
+    </div>
   );
 };
 

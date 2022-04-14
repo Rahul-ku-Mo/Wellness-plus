@@ -1,6 +1,5 @@
-
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "@firebase/firestore";
 
@@ -16,7 +15,7 @@ const firebaseConfig = {
   storageBucket: "wellnessplus-f250d.appspot.com",
   messagingSenderId: "757752821896",
   appId: "1:757752821896:web:9d1d0fe545d350a782c73d",
-  measurementId: "G-8R7SEV7EET"
+  measurementId: "G-8R7SEV7EET",
 };
 
 // Initialize Firebase

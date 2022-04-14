@@ -1,0 +1,6 @@
+.header {
+  border-bottom: 2px ;
+  display: flex;
+  justify-content: space-between;
+  background-image:  url(../images/whtbg.jpg);
+}

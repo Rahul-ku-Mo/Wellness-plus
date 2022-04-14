@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Program = ({ src, about, link, heading, id }) => {
   return (
-    <div id={id} className="flex justify-around mt-[100px] items-center">
+    <div id={id} className="flex justify-around py-[100px] items-center">
       <Image width={640} height={427} src={src} />
       <div>
         <div className="text-4xl py-4 font-bold capitalize">{heading}</div>
