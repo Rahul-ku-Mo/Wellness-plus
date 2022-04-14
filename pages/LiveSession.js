@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Header from "../components/LayoutWrapper/Header";
 import Footer from "../components/LayoutWrapper/Footer";
-import MyTable from "../components/MyTable";
+
 const LiveSession = () => {
   useEffect(() => {
     const playVideoFromCamera = async () => {
@@ -33,7 +33,7 @@ const LiveSession = () => {
   return (
     <div>
       <Header />
-      <MyTable />
+
       <video id="localVideo" autoplay playsinline controls="false" />
 
       <Footer />
