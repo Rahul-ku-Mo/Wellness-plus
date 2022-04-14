@@ -9,7 +9,7 @@ const Header = () => {
       <div
         className="p-4 font-semibold text-2xl cursor-pointer "
         onClick={() => {
-          Router.reload();
+          Router.replace('/');
         }}
       >
         wellnessPlus
